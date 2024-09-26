@@ -1,0 +1,25 @@
+h1{
+    font-size: 3rem;
+
+}
+section{
+    
+}
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 1em;
+}
+
+.item{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: var(--clr-light);
+    font-weight: 700;
+    font-size: 1.25rem;
+}
